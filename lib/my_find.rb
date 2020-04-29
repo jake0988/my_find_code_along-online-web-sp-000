@@ -7,3 +7,5 @@ def my_find(collection)
       i = i + 1
     end
   end
+
+  my_find(collection) {|1| 1 % 3 == 0 and 1 % 5 == 0 }
